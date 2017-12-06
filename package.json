@@ -1,0 +1,13 @@
+{
+    "name":"simplewebsite",
+    "version":"0.0.1",
+    "description": "simple node website run in docker",
+    "author":"jsen",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.2"
+    }
+}
