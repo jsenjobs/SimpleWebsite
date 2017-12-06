@@ -9,8 +9,6 @@ app.get('/', (req, res) => {
     res.status(200).send('Hello jsen\n')
 })
 
-app.listen(PORT, "localhost", err => {
-    console.error(err)
-})
+app.listen(PORT)
 
 console.log('Server running on http://localhost:' + PORT)
